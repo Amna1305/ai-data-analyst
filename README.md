@@ -50,16 +50,14 @@ Department-level breakdowns
 Ideal for Fiverr/Upwork data analysis gigs
 
 ## 📁Project Structure
-bash
-Copy
-Edit
-data_analyst_agent/
-├── streamlit_app.py       # Main Streamlit app
-├── app.py                 # Agent logic (optional CLI use)
-├── requirements.txt       # All Python packages
-├── .env.example           # API key template
-├── employee_data.csv      # Sample dataset
-└── README.md              # This file
+📁 data_analyst_agent/
+├── streamlit_app.py       # Main Streamlit app for UI
+├── app.py                 # Core logic for invoking the agent (optional for CLI/testing)
+├── requirements.txt       # All required Python packages
+├── .env.example           # API key template (used instead of exposing real key)
+├── employee_data.csv      # Sample data to demonstrate functionality
+└── README.md              # Project overview and instructions
+
 
 ## 🧠 Built With
 LangChain
