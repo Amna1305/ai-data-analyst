@@ -6,8 +6,8 @@ env/
 venv/
 
 # Ignore environment variable files
-.env
-.env.*
+.env           # ✅ still ignore your real API key file
+!.env.example  # ❗ but explicitly ALLOW .env.example
 
 # Ignore VS Code settings (optional)
 .vscode/
